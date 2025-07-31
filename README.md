@@ -1,4 +1,4 @@
-# Monet Style Transfer with CycleGAN
+# Monet Style Transfer with CycleGAN by Rylan Turner
 
 This project implements a CycleGAN model for the Kaggle "GAN Getting Started" competition, which generates Monet-style paintings from photographs.
 
@@ -9,8 +9,10 @@ The goal is to build a Generative Adversarial Network (GAN) that can transform r
 ## Dataset
 
 - **monet_jpg**: 300 Monet paintings (256x256 RGB)
+- **monet_tfrec**: Same images in TFRecord format
 - **photo_jpg**: 7,028 photographs (256x256 RGB)
-- **Output**: 7,000-10,000 generated Monet-style images
+- **photo_tfrec**: Same images in TFRecord format
+- **Output**: ~8,000 generated Monet-style images
 
 ## Model Architecture
 
@@ -30,17 +32,13 @@ pip install -r requirements.txt
 ## Usage
 
 1. Download the Kaggle competition dataset
-2. Place the data in the appropriate directories:
+2. Extract and place the data in the appropriate directories:
    - `monet_jpg/` - Monet paintings
+   - `monet_tfrec/`
    - `photo_jpg/` - Photographs
+   - `photo_tfrec/`
 
 3. Run the notebook to train the model and generate submission
-
-## Files
-
-- `monet_gan.py` - Main implementation
-- `requirements.txt` - Python dependencies
-- `README.md` - This file
 
 ## Key Features
 
