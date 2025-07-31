@@ -1,6 +1,6 @@
 # Monet Style Transfer with CycleGAN by Rylan Turner
 
-This project implements a CycleGAN model for the Kaggle "GAN Getting Started" competition, which generates Monet-style paintings from photographs.
+This project implements a CycleGAN model ~~for~~ inspired by the Kaggle "GAN Getting Started" competition, which generates Monet-style paintings from photographs.
 
 ## Project Overview
 
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ## Competition Submission
 
-The model generates 8,000 Monet-style images and packages them into `images.zip` for Kaggle submission. The evaluation metric is MiFID (Memorization-informed Fréchet Inception Distance).
+The model generates 8,000 Monet-style images and packages them into `images.zip` for Kaggle submission (this notebook runs 50 epochs to maximize training, too long for Kaggle submission). The evaluation metric is MiFID (Memorization-informed Fréchet Inception Distance).
 
 ## Results
 
