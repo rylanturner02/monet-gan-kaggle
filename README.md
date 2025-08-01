@@ -54,4 +54,5 @@ The model generates 8,000 Monet-style images and packages them into `images.zip`
 
 ## Results
 
+<img width="1554" height="788" alt="output_64_1" src="https://github.com/user-attachments/assets/366c2f3e-f4c2-4756-b281-886e4c9fd652" />
 The model successfully learns to transfer photographic images to Monet's artistic style while maintaining the original content and structure of the input photographs.
