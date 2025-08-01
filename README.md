@@ -1,4 +1,7 @@
 # Monet Style Transfer with CycleGAN by Rylan Turner
+![image_07000](https://github.com/user-attachments/assets/8f58ba42-669a-4f20-86ff-cbb63ce904aa)
+![image_06991](https://github.com/user-attachments/assets/ca29e867-b92a-473c-8d79-6c5023b8e2ce)
+![image_06972](https://github.com/user-attachments/assets/d0e6a74b-0848-48d9-a080-6ca9560d8931)
 
 This project implements a CycleGAN model ~~for~~ inspired by the Kaggle "GAN Getting Started" competition, which generates Monet-style paintings from photographs.
 
